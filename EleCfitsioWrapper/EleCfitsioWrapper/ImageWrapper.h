@@ -39,7 +39,7 @@ void updateShape(fitsfile* fptr, const Fits::Position<N>& shape);
 /**
  * @brief Read the whole raster of the current image HDU.
  */
-template <typename T, long N = 2>
+//template <typename T, long N = 2>
 Fits::VecRaster<T, N> readRaster(fitsfile* fptr);
 
 /**
